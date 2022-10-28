@@ -1,0 +1,135 @@
+p{
+	font-family: font-family 'Roboto', sans-serif;
+}
+h1{
+	 font-family: 'Lobster Two', cursive;
+	 color: rgb(24, 165, 190);
+}
+header {
+	background-color:#CC0066 ;
+	padding-top: 20px;
+}
+footer{
+	background-color:#CC0066 ;
+	padding-top: 150px;
+	margin-top: 100px;
+}
+img {
+	width: 170px;
+	height: 100px;
+}
+nav {
+	position: sticky;
+	font-family: 'Lobster Two', cursive;
+}
+.parrafo{
+	font-size:x-large;
+}
+.parrafo2{
+	font-size: larger;
+}
+.dib1  { float: left; width: 150px; margin: 10px 40px; padding: 5px; }
+.dib2  { float: right; width: 150px; margin: 10px 40px; padding: 5px; }
+
+
+
+.social-header a{
+	margin-top: 12px;
+    color:#1ABC9C;
+}
+.social-header a.fa-inverse{
+	color:#1ABC9C ;
+
+}
+.social-header a:hover {
+	color: black;
+
+}
+
+.menu-bar{
+	background-color: #1ABC9C;
+	margin-top: 20px;
+
+}
+.menu-bar a{
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	font-family: 'Lobster Two', cursive;
+}
+.menu-bar a:hover{
+	
+	color: #fff;
+}
+.btn-info{
+    font-size: black;
+	font-family: 'Lobster Two', cursive;
+	background-color:black;
+}
+
+.btn-info a:hover {
+	color: black;
+	
+}
+#myImage{
+	width: 150px;
+	height:150px;
+ }
+
+
+.slide img{
+    
+	height: 500px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.tarjeta{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px   rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.tarjeta img{
+    width: 100%;
+    height:210px ;
+}
+.tarjeta .contenido{
+    margin: 20px;
+    
+    text-align: center;
+
+}
+.tarjeta .contenido p{
+    line-height: 1.5;
+}
+.tarjeta .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px ;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: all 400ms ease;
+
+}
+.tarjeta .contenido a:hover{
+    background-color:black;
+    color: white;
+}
+
+
+
+
