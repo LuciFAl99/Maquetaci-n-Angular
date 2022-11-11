@@ -14,6 +14,7 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
 import { PieDePaginaComponent } from './componentes/pie-de-pagina/pie-de-pagina.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
