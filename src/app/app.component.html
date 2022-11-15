@@ -1,19 +1,76 @@
 
-<app-encabezado> </app-encabezado>
+<header>
 
-<app-carrusel></app-carrusel>
-
-<app-acerca-de></app-acerca-de>
-
-<app-experiencia></app-experiencia>
-
-<app-educacion></app-educacion>
-
- <app-proyectos></app-proyectos>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6" align="left">
+          <img src="../../assets/Imagenes/argprog.png" alt="Argentina Programa">
+  
+        </div>
+  
+  
+        <div class="col-sm-6">
+          <ul class="social-header" align="right">
+            <a routerLink="/login"     class="btn btn-info ">Login</a>
+  
+            <br><br>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/lucilaalochis3" target="_blank"></a><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+              <a href="https://www.facebook.com/lu.alochis" target="_blank"></a><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+              <a href="https://www.instagram.com/lucita.alochis/" target="_blank"></a><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+  
+              <a href="https://github.com/LuciFAl99" target="_blank"> </a><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+  
+  
+  
+            </li>
+          </ul>
+  
+        </div>
+      </div>
+    </div>
+    <div class="menu-bar text-xs-right">
+      <nav class="container" role="menu">
+        <ul>
+            <li class="list-inline-item">
+                <a routerLink="/carrusel"> Home</a>
+              </li>
+          <li class="list-inline-item">
+            <a routerLink="/acerca-de"> Acerca de</a>
+          </li>
+          <li class="list-inline-item">
+            <a routerLink="/experiencia">Experiencia</a>
+          </li>
+          <li class="list-inline-item">
+            <a routerLink="/educacion">Educación</a>
+          </li>
+          <li class="list-inline-item">
+            <a routerLink="/proyectos">Proyectos</a>
+          </li>
+          <li class="list-inline-item">
+            <a routerLink="/habilidades">Habilidades</a>
+          </li>
+        </ul>
+      </nav>
+  
+    </div>
+    
+  </header>
  
+ <router-outlet></router-outlet>
+  
+  
 
-<app-habilidades></app-habilidades>
-
-
-<app-pie-de-pagina></app-pie-de-pagina>
 
