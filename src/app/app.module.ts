@@ -12,6 +12,7 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { PieDePaginaComponent } from './componentes/pie-de-pagina/pie-de-pagina.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { HomeComponent } from './componentes/home/home.component';
 
 
 
@@ -28,6 +29,7 @@ import { LoginComponent } from './componentes/login/login.component';
     HabilidadesComponent,
     PieDePaginaComponent,
     LoginComponent,
+    HomeComponent,
     
 
   
