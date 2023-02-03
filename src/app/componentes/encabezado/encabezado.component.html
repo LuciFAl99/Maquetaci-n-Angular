@@ -10,7 +10,8 @@
 
       <div class="col-sm-6">
         <ul class="social-header" align="right">
-          <a routerLink="/login"     class="btn btn-info ">Login</a>
+          <button type="button" routerLink="/login" class="btn btn-info " (click)="login()" *ngIf="!isLogged">Iniciar Sesión</button>
+          <button type="button" routerLink="/login" class="btn btn-info " (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesión</button>
 
           <br><br>
           <li class="list-inline-item">
